@@ -18,7 +18,7 @@ builder.Services.AddSwaggerGen(c =>
 		In = ParameterLocation.Header,
 		Type = SecuritySchemeType.Http,
 		Scheme = "Bearer",
-		Description = "A one time token. Call Login Api Using Username:admin & Password:admin@123 "
+		Description = "A one time token. Call Login Api Using Username:admin & Password:admin123 "
 	});
 	c.AddSecurityRequirement(new OpenApiSecurityRequirement {
 		{
